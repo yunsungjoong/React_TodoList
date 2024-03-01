@@ -1,0 +1,28 @@
+.TodoTemplate {
+    width: 512px;
+
+    // width가 주어진 상태에서 좌우 중앙 정렬
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;  // 1rem 이 일반적으로 16px의 6배인 96px
+    border-radius: 4px;
+    overflow: hidden;
+    border-color: black ;
+    border: 10px;
+
+    .app-title {
+        background: #22b8cf;
+        color: white;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;  // Flexbox 레이아웃으로 설정
+        align-items: center; // Flex 컨테이너 안에서의 요소들의 수직 정렬을 가운데로
+        justify-content: center; //  Flex 컨테이너 안에서의 요소들의 수평 정렬을 가운데로
+    }
+
+    .content {
+        background: white;
+       
+    }
+}
+

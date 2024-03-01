@@ -1,0 +1,5 @@
+.TodoList {
+    min-height: 320px;
+    max-height: 513px;
+    overflow-y: auto; // 수직 방향으로 오버플로우(내용이 요소의 영역을 벗어남)가 발생할 때 스크롤바를 표시
+}
