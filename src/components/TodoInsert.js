@@ -4,8 +4,7 @@ import './TodoInsert.scss';
 
 
 const TodoInsert = ({onInsert}) => {
-    const [value, setValue] = useState('');
-    
+    const [value, setValue] = useState(''); 
     const onChange = useCallback(e => {
         
         console.log(e.target.value);
@@ -14,7 +13,6 @@ const TodoInsert = ({onInsert}) => {
 
     const onSubmit = useCallback(
         e => {
-            
             if(value === '') {
                 alert('다시입력해주세요')
             } else {
