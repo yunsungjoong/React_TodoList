@@ -14,7 +14,7 @@ const TodoInsert = ({onInsert}) => {
     const onSubmit = useCallback(
         e => {
             if(value === '') {
-                alert('다시입력해주세요')
+                alert('비어 있습니다. 다시 입력해주세요')
             } else {
                 onInsert(value);   // onInsert(value); // onInsert에 value 값을 파라미더로 넣어서 호출한다.
                 setValue('') // setValue('') // value 값 초기화 
